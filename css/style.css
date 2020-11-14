@@ -130,19 +130,6 @@
     font-size: 1.7rem;
   }
   
-  /* .btn-secondary {
-    text-transform: none;
-    text-decoration: none;
-    padding: 1.5rem 4rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: inline-block;
-    transition: all 0.2s;
-    position: relative;
-    font-weight: 700;
-    font-size: 1.7rem;
-  } */
-  
   /* Underlines */
   .vl {
     border-left: 2px solid var(--color-black);
@@ -162,6 +149,7 @@
   width: 100rem;
   background-image: var(--bg-gradient-primary);
   display: block;
+  text-align: center;
   margin: 2rem auto 2rem auto;
 }
 
@@ -294,11 +282,12 @@
 }
 
 .strip h3 {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
   color: var(--color-white);
   text-align: center;
-  text-align: right;
-  padding: 0rem 2rem;
+  margin-left: 15rem;
 }
 
 .strip .fas {
@@ -325,8 +314,6 @@
 .strip a:hover {
   color: var(--color-black);
 }
-
-
 
   /* Header */
   .header {
@@ -418,112 +405,44 @@
     font-size: 2rem;
     color: var(--color-black);
     text-align: center;
-    padding: 0rem 15rem;
+    /* padding: 0rem 15rem; */
   }
 
-  /* Graphic Overview */
-  .graphic {
+  /* Reviews */
+  .reviews {
     display: flex;
     position: relative;
     justify-content: center;
-    background-color: var(--color-grey-light-1);
+    background-image: var(--bg-gradient-primary);
   }
 
-  .graphic h2 {
+  .reviews h2 {
     font-size: 4rem;
-    color: var(--color-black);
+    color: var(--color-white);
     text-align: center;
     text-transform: uppercase;
   }
 
-  .graphic h2 span {
+  .reviews h2 span {
     font-size: 4rem;
-    color: var(--color-primary);
+    color: var(--color-white);
     text-align: center;
     text-transform: uppercase;
   }
 
-  .graphic h4 {
+  .reviews h4 {
+    font-size: 1.75rem;
+    color: var(--color-grey-light-1);
+    text-align: center;
+  }
+
+  .reviews p {
     font-size: 2rem;
-    color: var(--color-black);
+    color: var(--color-white);
     text-align: center;
+    /* padding: 0rem 15rem; */
+    margin-bottom: 2rem;
   }
-
-  .graphic p {
-    font-size: 2rem;
-    color: var(--color-black);
-    text-align: center;
-    padding: 0rem 15rem;
-  }
-
-  /* Web Overview */
-  .web {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    background-color: var(--color-grey-light-1);
-  }
-
-  .web h2 {
-    font-size: 4rem;
-    color: var(--color-black);
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  .web h2 span {
-    font-size: 4rem;
-    color: var(--color-primary);
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  .web h4 {
-    font-size: 2rem;
-    color: var(--color-black);
-    text-align: center;
-  }
-
-  .web p {
-    font-size: 2rem;
-    color: var(--color-black);
-    text-align: center;
-    padding: 0rem 15rem;
-  }
-
-    /* Template Development */
-    .templates {
-      display: flex;
-      position: relative;
-      justify-content: center;
-      background-color: var(--color-grey-light-1);
-    }
-  
-    .templates h2 {
-      font-size: 4rem;
-      color: var(--color-black);
-      text-align: center;
-      text-transform: uppercase;
-    }
-  
-    .templates h2 span {
-      font-size: 4rem;
-      color: var(--color-primary);
-      text-align: center;
-      text-transform: uppercase;
-    }
-  
-    .templates h4 {
-      font-size: 2rem;
-      color: var(--color-black);
-      text-align: center;
-    }
-  
-    .templates p {
-      font-size: 2rem;
-      color: var(--color-black);
-      text-align: center;
-    }
 
   /* Steps */
   .step {
@@ -556,11 +475,17 @@
     text-align: center;
     padding-bottom: 1rem;
   }
+  .step h3 {
+    font-size: 2.5rem;
+    color: var(--color-white);
+    text-align: center;
+    margin-bottom: 2rem;
+  }
 
   .step p {
     font-size: 1.75rem;
     color: var(--color-grey-light-1);
-    text-align: center;
+    text-align: left;
   }
 
   .step-container {
@@ -663,7 +588,7 @@
   .grid-container {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
     grid-gap: auto;
     justify-items: center;
@@ -678,50 +603,6 @@
   }
 
   .grid-item img {
-    width: 100%;
-  }
-
-  /* Gallery */
-  .gallery {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    background-color: #f2f2f2;
-  }
-
-  .gallery h2 {
-    font-size: 4rem;
-    color: var(--color-black);
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 2rem;
-  }
-
-  .gallery h2 span {
-    font-size: 4rem;
-    color: var(--color-primary);
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  .gallery-container {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr 1fr;
-    grid-gap: auto;
-    justify-items: center;
-  }
-  
-  .gallery-item {
-    /* background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8); */
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .gallery-item img {
     width: 100%;
   }
   
@@ -758,7 +639,7 @@
   
   .services__card {
     background-color: rgba(255, 255, 255, 0.7);
-    height: 55.25rem;
+    height: 84.75rem;
     /* padding: 2.5rem 3rem; */
     width: 34rem;
     margin: 4rem;
@@ -885,41 +766,6 @@
     letter-spacing: 1px;
     color: var(--color-white);
     font-style: italic;
-  }
-
-  /* About */
-  .about {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    background-image: var(--bg-gradient-primary);
-  }
-
-  .about h2 {
-    font-size: 4rem;
-    color: var(--color-white);
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  .about h2 span {
-    font-size: 4rem;
-    color: var(--color-white);
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  .about h4 {
-    font-size: 2rem;
-    color: var(--color-grey-light-1);
-    text-align: center;
-  }
-
-  .about p {
-    font-size: 2rem;
-    color: var(--color-white);
-    text-align: center;
-    padding: 0rem 15rem;
   }
   
   /* Contact */
@@ -1148,7 +994,18 @@
   /* Media Queries - Large Tablets*/
   
   @media (max-width: 1024px) {
-
+  /* Header */
+  .header {
+    height: 40vh;
+    position: relative;
+    display: flex;
+    background-image: url(../img/Divine\ Web\ Banner-01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    }  
   
   /* Media Queries - Small Tablets */
   
@@ -1167,6 +1024,13 @@
       letter-spacing: 2px;
       color: var(--color-secondary);
       text-decoration: none;
+    }
+
+    /* Navigation */
+    .navigation .navigation__nav {
+      position: relative;
+      background-color: var(--color-black);
+      padding: 0.75rem 0;
     }
   
     .navigation .navigation__nav .navigation__list {
@@ -1216,20 +1080,21 @@
   
     .nav__mobile ul {
       position: relative;
+      padding: 1rem 0 1rem 1rem;
     }
   
     .nav__mobile .nav__mobile-ul li {
       list-style: none;
       padding: 1rem;
       font-weight: 600;
-      color: var(--color-white);
+      color: var(--color-primary);
       font-size: var(--default-font-size);
     }
   
     .nav__mobile .nav__mobile-ul a,
     .nav__mobile .nav__mobile-ul i {
       cursor: pointer;
-      color: var(--color-white);
+      color: var(--color-primary);
       font-weight: 600;
     }
   
@@ -1241,6 +1106,19 @@
       border-bottom: 1px solid var(--color-white);
       width: 100%;
     }
+
+      /* Header */
+    .header {
+      height: 40vh;
+      position: relative;
+      display: flex;
+      background-image: url(../img/Divine\ Web\ Banner-01.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      justify-content: center;
+      align-items: center;
+      }    
   
     /* @media (max-width: 768px) {
   
@@ -1254,6 +1132,13 @@
   
     /* Media Queries - Mobile Devices */
     @media (max-width: 500px) {
+      /* Navigation */
+      .navigation .navigation__nav {
+        position: relative;
+        background-color: var(--color-black);
+        padding: 0.5rem 0;
+      }
+      
       /* Banner */
       .logo-box img {
         display: flex;
@@ -1272,9 +1157,86 @@
       }
   
       /* Header */
+      .header {
+        height: 25vh;
+        position: relative;
+        display: flex;
+        background-image: url(../img/Divine\ Web\ Banner-01.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+      }
+      
       .header .header__text-box h1 {
         font-size: 4rem;
       }
+
+      /* Button */
+      .btn--one {
+        background-image: var(--bg-gradient-primary);
+        color: var(--color-white);
+        letter-spacing: 0.25rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.25rem 0.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        border-radius: 10rem;
+        transition: all 0.2s;
+        position: relative;
+        transform: translateY(-3px);
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+        font-weight: 700;
+        font-size: 1.5rem;
+      }
+      .btn--one:hover {
+        background-image: var(--bg-gradient-secondary);
+        color: var(--color-primary);
+        letter-spacing: 0.25rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.25rem 0.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        justify-content: center;
+        display: flex;
+        border-radius: 10rem;
+        transition: all 0.2s;
+        position: relative;
+        transform: translateY(-3px);
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+        font-weight: 700;
+        font-size: 1.5rem;
+      }
+
+      /* Underline */
+      .underline-1 {
+        height: 2px;
+        width: 15rem;
+        background-image: var(--bg-gradient-primary);
+        display: block;
+        text-align: center;
+        margin: 2rem auto 2rem auto;
+      }
+
+      /* Feature */
+      .features-box {
+        display: inline-block;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+      }
+      .features-box .features-box-text p {
+        color: var(--color-black);
+        font-size: 2rem;
+        font-family: inherit;
+        margin-bottom: 4rem;
+      }
+
       /* 
     @media (max-width: 500px) {
       .navigation .navigation__nav .navigation__list {
@@ -1350,11 +1312,44 @@
         border-bottom: 1px solid var(--color-white);
         width: 100%;
       } */
-  
+
+      /* Grid */
+      .grid-container {
+        position: relative;
+        display: inline-block;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr 1fr;
+        grid-gap: auto;
+        justify-items: center;
+      }   
+
+      /* Steps */
+      .step-container {
+        position: relative;
+        display: inline-block;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-gap: auto;
+        justify-items: center;
+      }
+
+      /* Service Cards */
+      .services__card {
+        background-color: rgba(255, 255, 255, 0.7);
+        height: 79.75rem;
+        /* padding: 2.5rem 3rem; */
+        width: 34rem;
+        margin: 4rem;
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s;
+      }
+
       /* Testimonials */
   
       .section-testimonials {
-        padding: 4rem 0 8rem 0;
+        /* padding: 4rem 0 8rem 0; */
       }
   
       .section-testimonials .container {
@@ -1394,7 +1389,7 @@
   
       .footer__main-copyrt a,
       .footer__main-copyrt p {
-        padding: 0 0 2rem 0;
+        padding: 0 1rem 2rem 1rem;
         line-height: 1.5;
       }
     }
