@@ -455,6 +455,7 @@
     position: relative;
     justify-content: center;
     background-color: var(--color-black);
+    overflow: visible;
   }
 
   .step h2 {
@@ -467,6 +468,7 @@
   }
 
   .step h2 span {
+    position: relative;
     font-size: 4rem;
     background-image: var(--bg-gradient-primary);
     -webkit-background-clip: text;
