@@ -458,6 +458,7 @@
   }
 
   .step h2 {
+    position: relative;
     font-size: 4rem;
     color: var(--color-white);
     text-align: center;
@@ -574,7 +575,6 @@
   }
 
   .grid h2 {
-    position: relative;
     font-size: 4rem;
     color: var(--color-white);
     text-align: center;
