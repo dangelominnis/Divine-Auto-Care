@@ -639,7 +639,7 @@
   
   .services__card {
     background-color: rgba(255, 255, 255, 0.7);
-    height: 84.75rem;
+    height: 90rem;
     /* padding: 2.5rem 3rem; */
     width: 34rem;
     margin: 4rem;
@@ -1132,6 +1132,8 @@
   
     /* Media Queries - Mobile Devices */
     @media (max-width: 500px) {
+      
+      
       /* Navigation */
       .navigation .navigation__nav {
         position: relative;
@@ -1332,11 +1334,19 @@
         grid-gap: auto;
         justify-items: center;
       }
+      .step .container {
+        max-width: 140rem;
+        margin: 0 auto;
+        box-sizing: border-box;
+        position: relative;
+        padding: 3rem;
+        overflow: hidden;
+      }
 
       /* Service Cards */
       .services__card {
         background-color: rgba(255, 255, 255, 0.7);
-        height: 79.75rem;
+        height: 83rem;
         /* padding: 2.5rem 3rem; */
         width: 34rem;
         margin: 4rem;
@@ -1344,6 +1354,14 @@
         overflow: hidden;
         box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.15);
         transition: transform 0.3s;
+      }
+      .services .container {
+        max-width: 140rem;
+        margin: 0 auto;
+        box-sizing: border-box;
+        position: relative;
+        padding: 3rem;
+        overflow: hidden;
       }
 
       /* Testimonials */
