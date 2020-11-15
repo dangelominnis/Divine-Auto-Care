@@ -216,6 +216,7 @@
   .navigation .navigation__nav .navigation__list .navigation__item .fas {
     background-image: var(--bg-gradient-primary);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     margin-bottom: 1.5rem;
     font-size: 3rem;
@@ -225,12 +226,14 @@
   .navigation .navigation__nav .navigation__list .navigation__item .fas:hover {
     background-image: var(--bg-gradient-primary);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
   }
 
   .navigation .navigation__nav .navigation__list .navigation__item .far {
     background-image: var(--bg-gradient-primary);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     margin-bottom: 1.5rem;
     font-size: 3rem;
@@ -240,6 +243,7 @@
   .navigation .navigation__nav .navigation__list .navigation__item .far:hover {
     background-image: var(--bg-gradient-primary);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
   }
   
@@ -320,7 +324,7 @@
     height: 100vh;
     position: relative;
     display: flex;
-    background-image: url(../img/Divine\ Car\ Web\ banner\ \(1\).jpg);
+    background-image: url(../img/hero.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -390,6 +394,7 @@
     font-size: 4rem;
     background-image: var(--bg-gradient-primary);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     text-align: center;
     text-transform: uppercase;
@@ -464,6 +469,7 @@
     font-size: 4rem;
     background-image: var(--bg-gradient-primary);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     text-align: center;
     text-transform: uppercase;
@@ -498,8 +504,6 @@
   }
   
   .step-item {
-    /* background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8); */
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -538,6 +542,7 @@
     text-transform: uppercase;
     background-image: var(--bg-gradient-primary);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     font-size: 3.5rem;
     font-family: inherit;
@@ -580,6 +585,7 @@
     font-size: 4rem;
     background-image: var(--bg-gradient-primary);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     text-align: center;
     text-transform: uppercase;
@@ -623,6 +629,7 @@
     font-size: 4rem;
     background-image: var(--bg-gradient-primary);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     text-align: center;
     text-transform: uppercase;
@@ -662,6 +669,7 @@
     font-size: 2.50rem;
     background-image: var(--bg-gradient-primary);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     padding: 0 2rem;
     text-align: left;
@@ -785,6 +793,7 @@
     margin-bottom: 2rem;
     background-image: var(--bg-gradient-primary);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     text-align: center;
     text-transform: uppercase;
@@ -824,6 +833,7 @@
     padding: 2rem 0;
     background-image: var(--bg-gradient-primary);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
   }
   .section-contact .contact__cards-card h3 {
@@ -999,7 +1009,7 @@
     height: 40vh;
     position: relative;
     display: flex;
-    background-image: url(../img/Divine\ Car\ Web\ banner\ \(1\).jpg);
+    background-image: url(../img/hero);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1112,7 +1122,7 @@
       height: 40vh;
       position: relative;
       display: flex;
-      background-image: url(../img/Divine\ Car\ Web\ banner\ \(1\).jpg);
+      background-image: url(../img/hero.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -1163,7 +1173,7 @@
         height: 25vh;
         position: relative;
         display: flex;
-        background-image: url(../img/Divine\ Car\ Web\ banner\ \(1\).jpg);
+        background-image: url(../img/hero.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1334,19 +1344,19 @@
         grid-gap: auto;
         justify-items: center;
       }
-      .step .container {
+      /* .step .container {
         max-width: 140rem;
         margin: 0 auto;
         box-sizing: border-box;
         position: relative;
         padding: 3rem;
         overflow: hidden;
-      }
+      } */
 
       /* Service Cards */
       .services__card {
         background-color: rgba(255, 255, 255, 0.7);
-        height: 83rem;
+        height: 87rem;
         /* padding: 2.5rem 3rem; */
         width: 34rem;
         margin: 4rem;
@@ -1362,26 +1372,6 @@
         position: relative;
         padding: 3rem;
         overflow: hidden;
-      }
-
-      /* Testimonials */
-  
-      .section-testimonials {
-        /* padding: 4rem 0 8rem 0; */
-      }
-  
-      .section-testimonials .container {
-        padding: 6rem;
-      }
-  
-      .section-testimonials .container h2 {
-        font-size: 4rem;
-        text-align: center;
-        margin-bottom: 0;
-      }
-  
-      .section-testimonials .testimonials__item {
-        padding: 0;
       }
   
       /* Contact Form */
@@ -1411,3 +1401,5 @@
         line-height: 1.5;
       }
     }
+  }
+}
